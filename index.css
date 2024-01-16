@@ -166,10 +166,56 @@ ul li{
     gap: 15px;
 }
 
-.caption{
+.name{
+    height: auto;
     position: relative;
-    left: -30%;
-    bottom: -60px;
+}
+
+.name img{
+    display: block;
+    width: 100%;
+}
+
+.maldives{
+    position: absolute;
+    top: 132px;
+    left: 226px;
+    color: white;
+}
+
+.srilanka{
+    position: absolute;
+    top: 155px;
+    left: 130px;
+    color: white;
+}
+
+.amrica{
+    position: absolute;
+    top: 125px;
+    left: 137px;
+    color: white;
+}
+
+.kashmir{
+    position: absolute;
+    top: 125px;
+    left: 81px;
+    color: #fff;
+}
+
+.bangla{
+    position: absolute;
+    top: 132px;
+    left: 155px;
+    color: #fff;
+}
+
+.bandorban{
+    position: absolute;
+    top: 132px;
+    left: 260px;
+    color: white;
 }
 
 /*service  */
@@ -442,6 +488,27 @@ span{
     .destination-container, .service{
         margin: 10px;
         margin-top: 40px;
+    }
+
+    .maldives{
+        left: 126px;
+        top: 75px;
+    }
+
+
+    .kashmir{
+        top: 200px;
+        left: 130px;
+    }
+
+    .bangla{
+        top: 75px;
+        left: 111px;
+    }
+    
+    .bandorban{
+        top: 75px;
+        left: 111px;
     }
 
     .service-content{
