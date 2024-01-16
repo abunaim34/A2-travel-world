@@ -180,6 +180,7 @@ ul li{
     align-items: center;
     justify-content: center;
     margin: 100px 135px;
+    margin-bottom: 0px;
 }
 
 .subscription-field{
@@ -251,16 +252,16 @@ ul li{
 /* footer */
 footer{
     background-color: #1313180D;
-    height: 500px;
+    height: 400px;
     text-align: center;
 }
 
 .foot-header{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .foot-header hr{
-    margin: 50px 170px;
+    margin: 30px 170px;
 }
 
 .foot-content{
@@ -282,11 +283,11 @@ span{
 
 .foot-description{
     color: #5A5A5D;
-    margin: 24px 250px 32px;
+    margin: 20px 250px 30px;
 }
 
 .links{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .links .fa-brands{
@@ -401,8 +402,13 @@ span{
 
     .save-up{
         margin-left: 120px;
-        width: 150px;
-        top: -130px;
+        width: 180px;
+        top: -140px;
+    }
+
+    .foot-description, .foot-header hr{
+        padding: 15px;
+        margin: 10px;
     }
 
 }
